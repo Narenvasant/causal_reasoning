@@ -24,8 +24,8 @@ All experiments are conducted in a **ROS2 simulation environment** with a
 PR2 robot on a geometrically constrained pick-and-place task (5,000
 iterations). Following files are added:
 
-- **High-quality JPT**: success rate improved from 89% to 98.5% (+9.5 pp)
-- **Degraded JPT**: failed attempts reduced by 37%, recovery time improved
+- **High-quality JPT**: JPT with correct leaves and precision, without any noise
+- **Degraded JPT**: JPT with more leaves, less precision, and induced noise to make it less efficient
   by 2.2×, worst-case attempts per iteration reduced from 10 to 3
 - **Pick_Place demo** file for both JPT and JPT+Causal extension
 - **Run** file to run both demos simultaneously
