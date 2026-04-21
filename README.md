@@ -30,6 +30,7 @@ iterations). Two planning conditions are evaluated:
 
 ## Requirements
 
+- [CRAM](https://github.com/cram2/cognitive_robot_abstract_machine)
 - ROS2 (Humble or later)
 - [Joint Probability Trees](https://github.com/joint-probability-trees/jpt-dev)
 - Python 3.10+
