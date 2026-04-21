@@ -28,11 +28,11 @@ iterations). Two planning conditions are evaluated:
 - **Degraded JPT**: failed attempts reduced by 37%, recovery time improved
   by 2.2×, worst-case attempts per iteration reduced from 10 to 3
 - **Pick_Place demo** file for both JPT and JPT+Causal extension
-- **Run** file to run both the demo simultaneously
+- **Run** file to run both demos simultaneously
 
 ## Running Experiments
 
-- The demo files can be run individaully. To run both demos simulataneosly, use the run.py file.
+- The demo files can be run individually. To run both demos simultaneously, use the run.py file.
 
 
 ## Requirements
