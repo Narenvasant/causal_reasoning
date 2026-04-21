@@ -22,7 +22,7 @@ verification step certifies tractability before the robot begins operating.
 
 All experiments are conducted in a **ROS2 simulation environment** with a
 PR2 robot on a geometrically constrained pick-and-place task (5,000
-iterations). Two planning conditions are evaluated:
+iterations). Following files are added:
 
 - **High-quality JPT**: success rate improved from 89% to 98.5% (+9.5 pp)
 - **Degraded JPT**: failed attempts reduced by 37%, recovery time improved
@@ -32,6 +32,7 @@ iterations). Two planning conditions are evaluated:
 
 ## Running Experiments
 
+- To create a .json file from the dataframe CSV file, use any of the jpt scripts to create one before running the demos.
 - The demo files can be run individually. To run both demos simultaneously, use the run.py file.
 
 
